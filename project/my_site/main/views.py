@@ -6,3 +6,9 @@ def index(request):
 
 def community(request):
     return render(request, "main/community.html")
+
+def create(request):
+    return render(request, "main/create.html")
+
+def join(request):
+    return render(request, "main/join.html")
