@@ -12,3 +12,6 @@ def create(request):
 
 def join(request):
     return render(request, "main/join.html")
+
+def login(request):
+    return render(request, "main/login.html")
